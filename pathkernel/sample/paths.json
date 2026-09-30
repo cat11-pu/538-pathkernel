@@ -1,0 +1,27 @@
+{
+  "config": {
+    "separator": "/",
+    "caseSensitive": false,
+    "collapseSeparators": false,
+    "trimSeparators": true,
+    "invalidChars": ["?", "*", ":"]
+  },
+  "entries": [
+    {"path": "personal/email/gmail", "fields": [{"key": "note", "value": "personal"}, {"key": "user", "value": "mytchel"}]},
+    {"path": "personal/email/outlook", "fields": [{"key": "user", "value": "mytchel"}]},
+    {"path": "personal/./docs/./plan", "fields": [{"key": "status", "value": "draft"}]},
+    {"path": "personal/email/../docs/todo", "fields": [{"key": "status", "value": "open"}]},
+    {"path": "/work/", "fields": []},
+    {"path": "work/projects", "fields": [{"key": "client", "value": "acme"}]},
+    {"path": "work/projects/alpha", "fields": [{"key": "year", "value": "2026"}]},
+    {"path": "work/projects/beta", "fields": [{"key": "year", "value": "2025"}]},
+    {"path": "work/Projects/Gamma", "fields": [{"key": "year", "value": "2026"}]},
+    {"path": "WORK/projects/delta", "fields": [{"key": "year", "value": "2024"}]},
+    {"path": "Personal/Email/Gmail", "fields": [{"key": "user", "value": "mytchel"}]},
+    {"path": "work/projects//report", "fields": [{"key": "year", "value": "2026"}]},
+    {"path": "personal//notes", "fields": [{"key": "x", "value": "1"}]},
+    {"path": "../escape", "fields": [{"key": "x", "value": "1"}]},
+    {"path": "personal/email/gmail?", "fields": [{"key": "x", "value": "1"}]},
+    {"path": "/", "fields": [{"key": "x", "value": "1"}]}
+  ]
+}
